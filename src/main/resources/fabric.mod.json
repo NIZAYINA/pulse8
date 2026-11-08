@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "pulsefx",
+  "version": "1.2.0",
+  "name": "PulseFX",
+  "description": "Custom animated client visual effects (own sprites, pixel wings, bubbles, sakura, stars, trails, skies) with a toggle menu (P).",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "pulsefx.PulseFxMain"
+    ],
+    "client": [
+      "pulsefx.PulseFxClient"
+    ]
+  },
+  "mixins": [
+    "pulsefx.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
